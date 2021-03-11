@@ -12,4 +12,6 @@ This program will run an automated test system to login VistaSoft Monitor IoT So
 ** The easiest place to put it is in C:\Windows
 
 # Run the test case
+To run the test script, use the following instruction in the virtual environemnet.
+> behave feature/vistasoft.feature
 
