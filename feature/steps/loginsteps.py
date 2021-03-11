@@ -32,6 +32,5 @@ def step_impl(context):
 
 @then('User must successfully login to the VistaSoft Monitor main page')
 def step_impl(context):
-    context.driver.find_element(By.XPATH, "//button[@data-cy='user_menu_btn']").click()
     time.sleep(20)
     context.driver.close()
