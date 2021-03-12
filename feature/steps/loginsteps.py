@@ -32,5 +32,5 @@ def step_impl(context):
 
 @then('User must successfully login to the VistaSoft Monitor main page')
 def step_impl(context):
-    time.sleep(20)
+    time.sleep(10)
     context.driver.close()
